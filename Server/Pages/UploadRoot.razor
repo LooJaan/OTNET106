@@ -1,0 +1,62 @@
+﻿@page "/upload"
+<h3>UploadRoot</h3>
+
+<InputFile OnChange="FileSelected" key="@inputFileKey"></InputFile>                                
+<button @onclick="UploadFile">Upload</button>
+
+@* @if (!string.IsNullOrEmpty(message))                                                                                        c1
+{
+	<p>@message</p>
+} *@
+
+@code {
+	private IBrowserFile file;
+	private string inputFileKey = Guid.NewGuid().ToString(); // Key để reset InputFile                                         c2
+	// private string message = string.Empty;                                                                                  c1
+	[Inject] private IJSRuntime JSRuntime { get; set; }                                                                      //c2         
+	private async Task FileSelected(InputFileChangeEventArgs e)
+	{
+		file = e.File;
+		// message = string.Empty;                                                                                             c1
+	}
+	private async Task UploadFile()
+	{
+		if (file == null)
+		{
+			// message = "Vui lòng chọn tệp";                                                                                  c1
+			await ShowAlert("Vui lòng chọn tệp");                                                                            //c2   
+			return;
+		}
+		try
+		{
+			var uploadDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");                                //c12
+			if (!Directory.Exists(uploadDir))                                                                                //c12
+			{
+				Directory.CreateDirectory(uploadDir);                                                                        //c12
+			}
+			var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", file.Name);
+			using (var stream = new FileStream(filePath, FileMode.Create))
+			{
+				await file.OpenReadStream().CopyToAsync(stream);
+			}
+			// message = "Tải tệp lên thành công";                                                                             c1
+			await ShowAlert("Tải tệp lên thành công!");                                                                      //c2
+			ResetInputFile(); // Xóa dữ liệu trong form chọn tệp                                                               c2
+		}
+		catch(Exception ex)
+		{
+			// message = $"Có lỗi khi tải tệp lên: {ex.Message}";                                                              c1
+			await ShowAlert($"Lỗi khi tải tệp lên: {ex.Message}");                                                           //c2
+		}
+
+	}
+	private void ResetInputFile()                                                                                                  
+	{
+		inputFileKey = Guid.NewGuid().ToString(); // Thay đổi key để reset InputFile
+		file = null;
+	}
+	private async Task ShowAlert(string message)                                                                             //c2
+	{
+		await JSRuntime.InvokeVoidAsync("alert", message); // Gọi alert JavaScript
+	}
+}

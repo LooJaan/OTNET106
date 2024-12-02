@@ -1,0 +1,34 @@
+﻿@page "/edit/{id:int}"
+@using Server.Service
+@using global::Share
+@inject ISinhVienService SinhVienService
+@inject NavigationManager NavigationManager
+<h3>Edit</h3>
+
+<EditForm Model="sinhVien" OnValidSubmit="SubmitForm">
+	<div>
+		<label>Name: </label>
+		<InputText @bind-Value="sinhVien.Name"></InputText>
+	</div>
+	<div>
+		<label>Age: </label>
+		<InputNumber @bind-Value="sinhVien.Age"></InputNumber>
+	</div>
+	<button type="submit">Edit</button>
+</EditForm>
+
+
+@code {
+	[Parameter]
+	public int Id { get; set; }
+	private SinhVien sinhVien = new SinhVien();
+	protected async override Task OnInitializedAsync()
+	{
+		sinhVien = await SinhVienService.GetById(Id);
+	}
+	private async Task SubmitForm()
+	{
+		await SinhVienService.Update(sinhVien);
+		NavigationManager.NavigateTo("/listsinhvien");
+	}
+}

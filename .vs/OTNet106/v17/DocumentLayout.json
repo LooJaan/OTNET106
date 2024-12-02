@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\OTNet106\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB440209-0951-41A4-8939-E66356CB0198}|Server\\Server.csproj|e:\\otnet106\\server\\pages\\uploadroot.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB440209-0951-41A4-8939-E66356CB0198}|Server\\Server.csproj|solutionrelative:server\\pages\\uploadroot.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UploadRoot.razor",
+              "DocumentMoniker": "E:\\OTNet106\\Server\\Pages\\UploadRoot.razor",
+              "RelativeDocumentMoniker": "Server\\Pages\\UploadRoot.razor",
+              "ToolTip": "E:\\OTNet106\\Server\\Pages\\UploadRoot.razor",
+              "RelativeToolTip": "Server\\Pages\\UploadRoot.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T08:01:11.977Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

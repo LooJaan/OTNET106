@@ -1,0 +1,17 @@
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+wwwroot\css\open-iconic\FONT-LICENSE
+wwwroot\css\open-iconic\ICON-LICENSE
+wwwroot\css\open-iconic\README.md
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\uploads\349916985_646938653459192_1259806741498416090_n.jpg
+wwwroot\uploads\612cacfb41809.jpg
+wwwroot\uploads\immom.jpg
+wwwroot\uploads\Screenshot 2024-07-19 100834.png
