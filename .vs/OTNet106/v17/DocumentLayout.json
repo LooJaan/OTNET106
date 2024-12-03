@@ -5,6 +5,30 @@
     {
       "AbsoluteMoniker": "D:0:0:{EB440209-0951-41A4-8939-E66356CB0198}|Server\\Server.csproj|e:\\otnet106\\server\\pages\\uploadroot.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EB440209-0951-41A4-8939-E66356CB0198}|Server\\Server.csproj|solutionrelative:server\\pages\\uploadroot.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E833CD-B555-4429-A047-DFF389BC2ADF}|Share\\Share.csproj|e:\\otnet106\\share\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E833CD-B555-4429-A047-DFF389BC2ADF}|Share\\Share.csproj|solutionrelative:share\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2E2A9B-34F1-4A98-BF16-331AA9D3277A}|API\\API.csproj|e:\\otnet106\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2E2A9B-34F1-4A98-BF16-331AA9D3277A}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB440209-0951-41A4-8939-E66356CB0198}|Server\\Server.csproj|e:\\otnet106\\server\\pages\\listsinhvien.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB440209-0951-41A4-8939-E66356CB0198}|Server\\Server.csproj|solutionrelative:server\\pages\\listsinhvien.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB440209-0951-41A4-8939-E66356CB0198}|Server\\Server.csproj|e:\\otnet106\\server\\pages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB440209-0951-41A4-8939-E66356CB0198}|Server\\Server.csproj|solutionrelative:server\\pages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB440209-0951-41A4-8939-E66356CB0198}|Server\\Server.csproj|e:\\otnet106\\server\\pages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB440209-0951-41A4-8939-E66356CB0198}|Server\\Server.csproj|solutionrelative:server\\pages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB440209-0951-41A4-8939-E66356CB0198}|Server\\Server.csproj|e:\\otnet106\\server\\service\\sinhvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB440209-0951-41A4-8939-E66356CB0198}|Server\\Server.csproj|solutionrelative:server\\service\\sinhvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "E:\\OTNet106\\Share\\SinhVien.cs",
+              "RelativeDocumentMoniker": "Share\\SinhVien.cs",
+              "ToolTip": "E:\\OTNet106\\Share\\SinhVien.cs",
+              "RelativeToolTip": "Share\\SinhVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T04:01:24.836Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +61,74 @@
               "RelativeDocumentMoniker": "Server\\Pages\\UploadRoot.razor",
               "ToolTip": "E:\\OTNet106\\Server\\Pages\\UploadRoot.razor",
               "RelativeToolTip": "Server\\Pages\\UploadRoot.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T08:01:11.977Z",
+              "WhenOpened": "2024-12-03T03:31:33.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "E:\\OTNet106\\Server\\Pages\\Edit.razor",
+              "RelativeDocumentMoniker": "Server\\Pages\\Edit.razor",
+              "ToolTip": "E:\\OTNet106\\Server\\Pages\\Edit.razor",
+              "RelativeToolTip": "Server\\Pages\\Edit.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T03:13:31.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.razor",
+              "DocumentMoniker": "E:\\OTNet106\\Server\\Pages\\Create.razor",
+              "RelativeDocumentMoniker": "Server\\Pages\\Create.razor",
+              "ToolTip": "E:\\OTNet106\\Server\\Pages\\Create.razor",
+              "RelativeToolTip": "Server\\Pages\\Create.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T03:07:17.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListSinhVien.razor",
+              "DocumentMoniker": "E:\\OTNet106\\Server\\Pages\\ListSinhVien.razor",
+              "RelativeDocumentMoniker": "Server\\Pages\\ListSinhVien.razor",
+              "ToolTip": "E:\\OTNet106\\Server\\Pages\\ListSinhVien.razor",
+              "RelativeToolTip": "Server\\Pages\\ListSinhVien.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T02:28:13.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\OTNet106\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "E:\\OTNet106\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T02:17:53.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SinhVienService.cs",
+              "DocumentMoniker": "E:\\OTNet106\\Server\\Service\\SinhVienService.cs",
+              "RelativeDocumentMoniker": "Server\\Service\\SinhVienService.cs",
+              "ToolTip": "E:\\OTNet106\\Server\\Service\\SinhVienService.cs",
+              "RelativeToolTip": "Server\\Service\\SinhVienService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T02:08:28.933Z",
               "EditorCaption": ""
             }
           ]

@@ -61,16 +61,24 @@
       "PackagePath": "staticwebassets\\uploads\\349916985_646938653459192_1259806741498416090_n.jpg"
     },
     {
-      "Id": "E:\\OTNet106\\Server\\wwwroot\\uploads\\612cacfb41809.jpg",
-      "PackagePath": "staticwebassets\\uploads\\612cacfb41809.jpg"
+      "Id": "E:\\OTNet106\\Server\\wwwroot\\uploads\\LastWarningOK.jpg",
+      "PackagePath": "staticwebassets\\uploads\\LastWarningOK.jpg"
     },
     {
       "Id": "E:\\OTNet106\\Server\\wwwroot\\uploads\\Screenshot 2024-07-19 100834.png",
       "PackagePath": "staticwebassets\\uploads\\Screenshot 2024-07-19 100834.png"
     },
     {
+      "Id": "E:\\OTNet106\\Server\\wwwroot\\uploads\\bài học rút ra.jpg",
+      "PackagePath": "staticwebassets\\uploads\\bài học rút ra.jpg"
+    },
+    {
       "Id": "E:\\OTNet106\\Server\\wwwroot\\uploads\\immom.jpg",
       "PackagePath": "staticwebassets\\uploads\\immom.jpg"
+    },
+    {
+      "Id": "E:\\OTNet106\\Server\\wwwroot\\uploads\\ê ê ê.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ê ê ê.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

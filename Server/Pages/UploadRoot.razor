@@ -13,11 +13,24 @@
 	private IBrowserFile file;
 	private string inputFileKey = Guid.NewGuid().ToString(); // Key để reset InputFile                                         c2
 	// private string message = string.Empty;                                                                                  c1
-	[Inject] private IJSRuntime JSRuntime { get; set; }                                                                      //c2         
+	[Inject] private IJSRuntime JSRuntime { get; set; }                                                                      //c2     
+	
+	private bool IsValidFileExtension(string fileName)
+	{
+		var allowedExtensions = new[] { ".jpg", ".jpeg", ".tiff" };
+		var fileExtension = Path.GetExtension(fileName).ToLower();
+
+		return allowedExtensions.Contains(fileExtension);
+	}
 	private async Task FileSelected(InputFileChangeEventArgs e)
 	{
 		file = e.File;
 		// message = string.Empty;                                                                                             c1
+		if (!IsValidFileExtension(file.Name))
+		{
+			await ShowAlert("Chỉ cho phép tải lên các tệp .jpg, .jpeg, hoặc .tiff.");
+			file = null; // Hủy file nếu không hợp lệ
+		}
 	}
 	private async Task UploadFile()
 	{
@@ -29,11 +42,11 @@
 		}
 		try
 		{
-			var uploadDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");                                //c12
-			if (!Directory.Exists(uploadDir))                                                                                //c12
-			{
-				Directory.CreateDirectory(uploadDir);                                                                        //c12
-			}
+			// var uploadDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");                                //c12
+			// if (!Directory.Exists(uploadDir))                                                                                //c12
+			// {
+			// 	Directory.CreateDirectory(uploadDir);                                                                        //c12
+			// }
 			var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", file.Name);
 			using (var stream = new FileStream(filePath, FileMode.Create))
 			{

@@ -37,3 +37,4 @@ E:\OTNet106\Server\bin\Debug\net6.0\Share.dll
 E:\OTNet106\Server\bin\Debug\net6.0\Share.pdb
 E:\OTNet106\Server\obj\Debug\net6.0\Server.csproj.AssemblyReference.cache
 E:\OTNet106\Server\obj\Debug\net6.0\Server.csproj.Up2Date
+E:\OTNet106\Server\obj\Debug\net6.0\Server.sourcelink.json

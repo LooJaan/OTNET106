@@ -12,6 +12,8 @@ wwwroot\css\open-iconic\README.md
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\uploads\349916985_646938653459192_1259806741498416090_n.jpg
-wwwroot\uploads\612cacfb41809.jpg
+wwwroot\uploads\bài học rút ra.jpg
+wwwroot\uploads\ê ê ê.jpg
 wwwroot\uploads\immom.jpg
+wwwroot\uploads\LastWarningOK.jpg
 wwwroot\uploads\Screenshot 2024-07-19 100834.png

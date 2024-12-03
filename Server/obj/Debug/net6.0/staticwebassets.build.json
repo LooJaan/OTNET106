@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LldW4eiFt2z784eDEfDrmjjHVoL6GJDG9/NqqaNDr40=",
+  "Hash": "sEl1y+ug+jaAq7qvc235ONM6ztzHPfrYYb5oII42lEk=",
   "Source": "Server",
   "BasePath": "_content/Server",
   "Mode": "Default",
@@ -353,12 +353,12 @@
       "OriginalItemSpec": "wwwroot\\uploads\\349916985_646938653459192_1259806741498416090_n.jpg"
     },
     {
-      "Identity": "E:\\OTNet106\\Server\\wwwroot\\uploads\\612cacfb41809.jpg",
+      "Identity": "E:\\OTNet106\\Server\\wwwroot\\uploads\\bài học rút ra.jpg",
       "SourceId": "Server",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\OTNet106\\Server\\wwwroot\\",
       "BasePath": "_content/Server",
-      "RelativePath": "uploads/612cacfb41809#[.{fingerprint}]?.jpg",
+      "RelativePath": "uploads/bài học rút ra#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -367,11 +367,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "djpa2rkrpy",
+      "Integrity": "N9JGotwuHyyGn+t4Yf8VjaebHYUQKMUwJe8qFpmsu8E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\612cacfb41809.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\bài học rút ra.jpg"
+    },
+    {
+      "Identity": "E:\\OTNet106\\Server\\wwwroot\\uploads\\ê ê ê.jpg",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\OTNet106\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "uploads/ê ê ê#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s8edjwpjmb",
+      "Integrity": "XEwuBoFYgLRXnd/8yha21RaGBa5j+T2tGNH5sLlvTgA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ê ê ê.jpg"
     },
     {
       "Identity": "E:\\OTNet106\\Server\\wwwroot\\uploads\\immom.jpg",
@@ -393,6 +414,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\immom.jpg"
+    },
+    {
+      "Identity": "E:\\OTNet106\\Server\\wwwroot\\uploads\\LastWarningOK.jpg",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\OTNet106\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "uploads/LastWarningOK#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y5eqnocho4",
+      "Integrity": "yl7hi6P/b2esBoFIPt7apT8S99Ag0b3Gtqzmg49t378=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\LastWarningOK.jpg"
     },
     {
       "Identity": "E:\\OTNet106\\Server\\wwwroot\\uploads\\Screenshot 2024-07-19 100834.png",
@@ -1730,8 +1772,8 @@
       ]
     },
     {
-      "Route": "uploads/612cacfb41809.5ipweew5fc.jpg",
-      "AssetFile": "E:\\OTNet106\\Server\\wwwroot\\uploads\\612cacfb41809.jpg",
+      "Route": "uploads/bài học rút ra.djpa2rkrpy.jpg",
+      "AssetFile": "E:\\OTNet106\\Server\\wwwroot\\uploads\\bài học rút ra.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1740,7 +1782,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "8379"
         },
         {
           "Name": "Content-Type",
@@ -1748,11 +1790,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"N9JGotwuHyyGn+t4Yf8VjaebHYUQKMUwJe8qFpmsu8E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Dec 2024 08:19:23 GMT"
+          "Value": "Tue, 03 Dec 2024 01:45:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1762,21 +1804,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "djpa2rkrpy"
         },
         {
           "Name": "label",
-          "Value": "uploads/612cacfb41809.jpg"
+          "Value": "uploads/bài học rút ra.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-N9JGotwuHyyGn+t4Yf8VjaebHYUQKMUwJe8qFpmsu8E="
         }
       ]
     },
     {
-      "Route": "uploads/612cacfb41809.jpg",
-      "AssetFile": "E:\\OTNet106\\Server\\wwwroot\\uploads\\612cacfb41809.jpg",
+      "Route": "uploads/bài học rút ra.jpg",
+      "AssetFile": "E:\\OTNet106\\Server\\wwwroot\\uploads\\bài học rút ra.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1785,7 +1827,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "8379"
         },
         {
           "Name": "Content-Type",
@@ -1793,11 +1835,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"N9JGotwuHyyGn+t4Yf8VjaebHYUQKMUwJe8qFpmsu8E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Dec 2024 08:19:23 GMT"
+          "Value": "Tue, 03 Dec 2024 01:45:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1807,7 +1849,89 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-N9JGotwuHyyGn+t4Yf8VjaebHYUQKMUwJe8qFpmsu8E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ê ê ê.jpg",
+      "AssetFile": "E:\\OTNet106\\Server\\wwwroot\\uploads\\ê ê ê.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XEwuBoFYgLRXnd/8yha21RaGBa5j+T2tGNH5sLlvTgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 08:21:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XEwuBoFYgLRXnd/8yha21RaGBa5j+T2tGNH5sLlvTgA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ê ê ê.s8edjwpjmb.jpg",
+      "AssetFile": "E:\\OTNet106\\Server\\wwwroot\\uploads\\ê ê ê.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XEwuBoFYgLRXnd/8yha21RaGBa5j+T2tGNH5sLlvTgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 08:21:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s8edjwpjmb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/ê ê ê.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XEwuBoFYgLRXnd/8yha21RaGBa5j+T2tGNH5sLlvTgA="
         }
       ]
     },
@@ -1890,6 +2014,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zx/tusPm3TcQ8X5heXspD+Con2iCdPJiBX/xN79F9dw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/LastWarningOK.jpg",
+      "AssetFile": "E:\\OTNet106\\Server\\wwwroot\\uploads\\LastWarningOK.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yl7hi6P/b2esBoFIPt7apT8S99Ag0b3Gtqzmg49t378=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 01:44:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yl7hi6P/b2esBoFIPt7apT8S99Ag0b3Gtqzmg49t378="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/LastWarningOK.y5eqnocho4.jpg",
+      "AssetFile": "E:\\OTNet106\\Server\\wwwroot\\uploads\\LastWarningOK.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yl7hi6P/b2esBoFIPt7apT8S99Ag0b3Gtqzmg49t378=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 01:44:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y5eqnocho4"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/LastWarningOK.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yl7hi6P/b2esBoFIPt7apT8S99Ag0b3Gtqzmg49t378="
         }
       ]
     },
